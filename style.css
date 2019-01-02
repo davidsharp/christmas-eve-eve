@@ -1,11 +1,16 @@
 /* CSS files add styling rules to your content */
 
+@font-face {
+  font-family: "Balsamiq Sans";
+  src: url("https://cdn.glitch.com/11609301-8abb-461b-9fe5-b03dcdd0fd4a%2FBalsamiqSansRegular.ttf?1546433770249") format("ttf");
+}
+
 body {
-  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  font-family: "Balsamiq Sans", "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
   margin: 2em;
 }
 
 h1 {
+  font-family: "Balsamiq Sans";
   font-style: italic;
-  color: #373fff;
 }
