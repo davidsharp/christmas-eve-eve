@@ -1,17 +1,21 @@
 @font-face {
   font-family: "Balsamiq Sans";
-  src: url("https://cdn.glitch.com/11609301-8abb-461b-9fe5-b03dcdd0fd4a%2FBalsamiqSansRegular.ttf?1546433770249") format("ttf");
+  src: url("https://cdn.glitch.com/11609301-8abb-461b-9fe5-b03dcdd0fd4a%2FBalsamiqSansRegular.ttf?1546433770249");
+}
+@font-face {
+  font-family: "xkcd Script";
+  src: url("https://cdn.glitch.com/11609301-8abb-461b-9fe5-b03dcdd0fd4a%2Fxkcd-script.ttf?1546436123271");
 }
 
 body {
-  font-family: "Balsamiq Sans", "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  font-family: "xkcd Script", "Balsamiq Sans", "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
   margin: 2em; margin-left: auto; margin-right: auto;
   text-align: center;
   max-width: 500px;
 }
 
 h1 {
-  font-family: "Balsamiq Sans";
+  font-family: "xkcd Script", "Balsamiq Sans";
   font-style: italic;
 }
 
